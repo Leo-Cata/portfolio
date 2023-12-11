@@ -4,6 +4,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <img src="/layered-steps-haikei.svg" alt="" />
     </>
   );
 }
