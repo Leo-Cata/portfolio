@@ -1,10 +1,13 @@
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+// import Technologies from "./components/Technologies";
 
 function App() {
   return (
     <>
       <Navbar />
-      <img src="/layered-steps-haikei.svg" alt="" />
+      <Hero />
+      {/* <Technologies /> */}
     </>
   );
 }
