@@ -6,6 +6,16 @@ export default {
       fontFamily: {
         roboto: ['"Roboto"', "sans-serif"],
       },
+      colors: {
+        react: "#83BED1",
+        javascript: "#FCDC00",
+        typescript: "#3178C6",
+        tailwind: "#38BDF8",
+        mui: "#007FFF",
+        router: "#F44250",
+        axios: "#9879EE",
+        firebase: "#F38715",
+      },
     },
   },
   plugins: [],
