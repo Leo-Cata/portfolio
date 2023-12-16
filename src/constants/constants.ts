@@ -8,8 +8,10 @@ export const projects: Projects[] = [
       { name: "<JavaScript/>", bg: "bg-javascript" },
       { name: "<TailwindCSS/>", bg: "bg-tailwind" },
     ],
-    title: "Dialect",
-    description: `First solo project after finishing the bootcamp and following tutorials, consisting on translating a Figma web design of a landing page into a code using <span/>React</span/> and <span/>TailwindCSS</span/> as the main styling tool, adapting the design to be <span/>fully responsive</span/>.`,
+    title: "Dialect Landing Page",
+    description: `Landing page of a fictional language learning site, designed based on a <span>Figma</span> web design.<br/>
+    I started this project after completing a bootcamp and doing some tutorial projects. It was my way of diving into independent projects, specifically to get better at <span>CSS</span>, using only <span>TailwindCSS</span>, <span>JavaScript</span>, and <span>React</span> to create this landing page.<br/>
+    The website features a <span>fully responsive</span> design, utilizes the <span>useState</span> and <span>useContext</span> hooks to manage language synchronization within the dropdown menu. Additionally, it includes a <span>carousel</span> that displays 1 to 3 cards based on the viewport width.`,
     links: [
       { name: "Link", link: "https://dialect-leomat.netlify.app/" },
       { name: "GitHub", link: "https://github.com/Leo-Cata/Dialect-Project" },
@@ -22,12 +24,15 @@ export const projects: Projects[] = [
       { name: "<TypeScript/>", bg: "bg-typescript" },
       { name: "<TailwindCSS/>", bg: "bg-tailwind" },
     ],
-    title: "Network Agency",
-    description:
-      "Following the same theme as my first project, the focus of this project was to keep learning and practising React, CSS using TailwindCSS for the styles and TypeScript to create a fully responsive landing page with additional minor interactivity.",
+    title: "Network Agency Landing Page",
+    description: `Landing page of a fictional network agency, designed based on a <span>Figma</span> web design. <br/>
+    With this project, I instead used <span>TypeScript</span> to gain a basic understanding of its fundamental, utilizing for different arrays which are mapped.<br/>
+    <span>Framer Motion</span> was used for different animations, <span>TailwindCSS</span> for the styles, and <span>React</span> along with some <span>Hooks</span>.
+    This is a <span>fully responsive</span> website, containing a <span>carousel</span>, an <span>accordion</span> style faq section and a mobile menu animated.
+    `,
     links: [
-      { name: "Link", link: "https://dialect-leomat.netlify.app/" },
-      { name: "GitHub", link: "https://github.com/Leo-Cata/Dialect-Project" },
+      { name: "Link", link: "https://networkagency-leomat.netlify.app/" },
+      { name: "GitHub", link: "https://github.com/Leo-Cata/Network-Agency" },
     ],
   },
   {
@@ -38,11 +43,14 @@ export const projects: Projects[] = [
       { name: "<Mui/>", bg: "bg-mui" },
       { name: "<TailwindCSS/>", bg: "bg-tailwind" },
       { name: "<React-Router-Dom/>", bg: "bg-router" },
-      { name: "<Axios//>", bg: "bg-axios" },
+      { name: "<Axios/>", bg: "bg-axios" },
     ],
     title: "Phone Specs Hub",
-    description:
-      "Now focusing more on logic and TypeScript, this project integrates an API of a database of phone specs, which is being fetched and handle with Axios, consisting of a home page with the latest releases and top phones by interest and fans.\nBrands page with all of the available brands and finally, page for each phone in which contains technical information and some screenshots. \nSingle page application style of navigation with React-Router-Dom, components using Mui and TailwindCSS for editing and overriding styles.",
+    description: `Moving into something more complex, this web app integrates a cellphones database <span>API</span>.<br/>
+    For this project, I decided to learn <span>MUI</span> and it's vast library of pre-made components, focusing more on the logic, <span>JavaScript/TypeScrip</span>, rather than the design.<br/>
+    The data is fetched using <span>Axios</span>, <span>React-Router-Dom</span> is being used for SPA navigation, and minor styling using <span>TailwindCSS</span>.<br/>
+    In this fully responsive app, the user can find out the latest released phones, search the phone brands or a general search in the database. When navigation to a phone page, the phone specifications are displayed in accordions, giving the user technical information about the phone.
+    `,
     links: [
       { name: "Link", link: "https://phonespecshub.netlify.app/" },
       { name: "GitHub", link: "https://github.com/Leo-Cata/phone-specs-hub" },
