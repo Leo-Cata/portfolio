@@ -23,6 +23,7 @@ export const projects: Projects[] = [
       { name: "<React/>", bg: "bg-react" },
       { name: "<TypeScript/>", bg: "bg-typescript" },
       { name: "<TailwindCSS/>", bg: "bg-tailwind" },
+      { name: "<Framer Motion/>", bg: "bg-framer" },
     ],
     title: "Network Agency Landing Page",
     description: `Landing page of a fictional network agency, designed based on a <span>Figma</span> web design. <br/>
@@ -47,7 +48,7 @@ export const projects: Projects[] = [
     ],
     title: "Phone Specs Hub",
     description: `Moving into something more complex, this web app integrates a cellphones database <span>API</span>.<br/>
-    For this project, I decided to learn <span>MUI</span> and it's vast library of pre-made components, focusing more on the logic, <span>JavaScript/TypeScrip</span>, rather than the design.<br/>
+    For this project, I decided to learn <span>MUI</span> and it's vast library of pre-made components, focusing more on the logic and <span>TypeScrip</span>, rather than the design.<br/>
     The data is fetched using <span>Axios</span>, <span>React-Router-Dom</span> is being used for SPA navigation, and minor styling using <span>TailwindCSS</span>.<br/>
     In this fully responsive app, the user can find out the latest released phones, search the phone brands or a general search in the database. When navigation to a phone page, the phone specifications are displayed in accordions, giving the user technical information about the phone.
     `,
@@ -66,10 +67,14 @@ export const projects: Projects[] = [
       { name: "<React-Router-Dom/>", bg: "bg-router" },
       { name: "<Axios/>", bg: "bg-axios" },
       { name: "<Firebase/>", bg: "bg-firebase" },
+      { name: "<Swiper.js/>", bg: "bg-swiper" },
     ],
     title: "Backlogged",
-    description:
-      "This fully responsive app allows users to explore games based on decades, genres, platforms, Metacritic scores, and more. Users can access short descriptions, learn about genres, tags, release dates, view game screenshots, and more. Additionally, the site integrates Google authentication and Firestore, enabling users to add games to a backlog for later play, with the list accessible in their private profile.",
+    description: `
+    This <span>React</span> and <span>TypeScript</span> web app integrates a video game database <span>API</span> via <span>Axios</span>, utilizing <span>MUI</span>'s components library and <span>TailwindCSS</span> for minor styling. <span>React-Router-Dom</span> handles navigation and state passing between pages. Each game page features a slider using <span>Swiper.js</span>. <br/>
+    Logged-in users can save games, reflected by a 'save' icon that remains consistent across the app. These saved games are stored in a <span>Firebase</span> database, alongside card data fetched from the RAWG API. Users can view their backlog on their private profile and manage it, either deleting individual games, the entire collection of games or their entire profiles from the database.
+
+    `,
     links: [
       { name: "Link", link: "https://backlogged.netlify.app/" },
       { name: "GitHub", link: "https://github.com/Leo-Cata/rawg-app" },

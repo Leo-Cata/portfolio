@@ -2,15 +2,13 @@ import ProjectsCards from "./ProjectsCards";
 import { projects } from "../../constants/constants";
 
 const Projects = () => {
-  console.log(projects);
-
   return (
-    <div className="">
+    <section className="">
       <h2 className="my-12 text-center text-6xl font-semibold">Projects</h2>
       <div className="flex flex-wrap justify-center space-y-20">
         {projects.map((project, index) => (
           <div
-            className={`m-2 flex flex-col  items-center border lg:mx-4
+            className={`m-1 flex flex-col  items-center border lg:mx-4
 lg:flex-row ${index % 2 ? "lg:flex-row-reverse" : ""}`}
             key={project.title}
           >
@@ -25,7 +23,7 @@ lg:flex-row ${index % 2 ? "lg:flex-row-reverse" : ""}`}
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

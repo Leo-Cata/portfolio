@@ -16,6 +16,8 @@ export default {
         router: "#F44250",
         axios: "#9879EE",
         firebase: "#F38715",
+        swiper: "#0080FF",
+        framer: "#00A0FF",
       },
     },
   },
