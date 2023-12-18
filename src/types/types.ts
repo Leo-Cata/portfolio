@@ -9,10 +9,10 @@ export interface Projects {
   chips: Chips[];
   title: string;
   description: string;
-  links: ProjectsLinks[];
+  links: ProjectsLinksType[];
 }
 
-interface ProjectsLinks {
+export interface ProjectsLinksType {
   name: string;
   link: string;
 }

@@ -47,10 +47,10 @@ export const projects: Projects[] = [
       { name: "<Axios/>", bg: "bg-axios" },
     ],
     title: "Phone Specs Hub",
-    description: `Moving into something more complex, this web app integrates a cellphones database <span>API</span>.<br/>
-    For this project, I decided to learn <span>MUI</span> and it's vast library of pre-made components, focusing more on the logic and <span>TypeScrip</span>, rather than the design.<br/>
-    The data is fetched using <span>Axios</span>, <span>React-Router-Dom</span> is being used for SPA navigation, and minor styling using <span>TailwindCSS</span>.<br/>
-    In this fully responsive app, the user can find out the latest released phones, search the phone brands or a general search in the database. When navigation to a phone page, the phone specifications are displayed in accordions, giving the user technical information about the phone.
+    description: `Moving into something more complex, in this fully responsive web app, the user can find out the latest released phones, search the phone brands or a general search in the database. When navigation to a phone page, the phone specifications are displayed in accordions, giving the user technical information about the phone. this web app integrates a cellphones database <span>API</span>.<br/>
+    For this project, I decided to learn <span>MUI</span> and it's vast library of pre-made components, focusing more on the logic and <span>TypeScript</span>, rather than the design.<br/>
+    The data is fetched using <span>Axios</span>, <span>React-Router-Dom</span> is being used for SPA navigation, and <span>TailwindCSS</span> for minor styling using .<br/>
+    
     `,
     links: [
       { name: "Link", link: "https://phonespecshub.netlify.app/" },
@@ -71,9 +71,12 @@ export const projects: Projects[] = [
     ],
     title: "Backlogged",
     description: `
-    This <span>React</span> and <span>TypeScript</span> web app integrates a video game database <span>API</span> via <span>Axios</span>, utilizing <span>MUI</span>'s components library and <span>TailwindCSS</span> for minor styling. <span>React-Router-Dom</span> handles navigation and state passing between pages. Each game page features a slider using <span>Swiper.js</span>. <br/>
-    Logged-in users can save games, reflected by a 'save' icon that remains consistent across the app. These saved games are stored in a <span>Firebase</span> database, alongside card data fetched from the RAWG API. Users can view their backlog on their private profile and manage it, either deleting individual games, the entire collection of games or their entire profiles from the database.
+    This <span>React</span> and <span>TypeScript</span> web app <span>integrates</span> a videogames <span>API</span> via <span>Axios</span>, utilizing <span>MUI</span> component library and <span>TailwindCSS</span> for minor styling. <br/><br/>
 
+    <span>Firebase</span> is used for it's <span>Authentication</span> and <span>database</span> services. This web app allows users to sign in using their Google account and add games from the API to their backlog. These games are then stored in Firebase to be displayed later on their private profile. The app incorporates a system to write, read, and delete data from the database, enabling users to manage their backlogged games. Additionally, from the profile page, users can delete their backlog or their accounts all together from the database. <br/><br/>
+
+    Backlogged games have a 'save' icon that remains consistent across the app. <br/>
+    <span>React-Router-Dom</span> is used to handle navigation and state passing between pages. <span>Swiper.js</span> is used to display images in slider format.
     `,
     links: [
       { name: "Link", link: "https://backlogged.netlify.app/" },
