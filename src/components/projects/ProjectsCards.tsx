@@ -9,11 +9,18 @@ const ProjectsCards = ({ description, img, title, chips, links }: Projects) => {
   return (
     <>
       {/* image */}
-      <img
-        src={img}
-        alt={title + " landing page image"}
-        className="h-fit w-full self-start rounded-lg lg:max-w-[50%]"
-      />
+      <a
+        href={links[0].link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="h-fit w-full self-start lg:max-w-[50%]"
+      >
+        <img
+          src={img}
+          alt={title + " landing page image"}
+          className="rounded-lg"
+        />
+      </a>
 
       {/* text content */}
       <div className="mx-4 flex h-full w-full flex-grow flex-col lg:max-w-[50%]">
