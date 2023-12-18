@@ -11,6 +11,10 @@ font-family: 'Roboto', sans-serif;
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100dvh;
 }

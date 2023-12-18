@@ -3,7 +3,7 @@ import { projects } from "../../constants/constants";
 
 const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <h2 className="my-12 text-center text-6xl font-semibold">Projects</h2>
       <div className="mx-1 flex flex-wrap justify-center space-y-40 lg:mx-0">
         {projects.map((project, index) => (
