@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="mx-1 flex flex-wrap justify-center space-y-40 lg:mx-0">
         {projects.map((project, index) => (
           <div
-            className={`flex flex-col items-center lg:mx-4
+            className={`flex flex-col items-center rounded-md bg-white shadow-2xl lg:mx-4
             lg:flex-row ${index % 2 ? "lg:flex-row-reverse" : ""}`}
             key={project.title}
           >
