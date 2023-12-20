@@ -20,6 +20,15 @@ export default {
         framer: "#00A0FF",
       },
     },
+    keyframes: {
+      gradientKeyframe: {
+        "0%": { backgroundPosition: "0% 50%" },
+        "100%": { backgroundPosition: "100% 50%" },
+      },
+    },
+    animation: {
+      gradient: "gradientKeyframe 6s linear infinite",
+    },
   },
   plugins: [],
 };

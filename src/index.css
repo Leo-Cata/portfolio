@@ -17,5 +17,11 @@ html {
 
 body {
   height: 100dvh;
-  background-color: #f4f4f4;
+  background-color: #dedede;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #ca419e, #7035ff, #ca419e, #7035ff);
+  background-size: 300% 300%;
+  background-clip: text;
 }
