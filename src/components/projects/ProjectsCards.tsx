@@ -23,7 +23,7 @@ const ProjectsCards = ({ description, img, title, chips, links }: Projects) => {
       </a>
 
       {/* text content */}
-      <div className="mx-4 flex h-full w-full flex-grow flex-col lg:max-w-[50%]">
+      <div className="mx-4 flex h-full w-full flex-grow flex-col py-2 lg:max-w-[50%]">
         {/* title */}
         <ProjectsTitle title={title} link={links[0].link} />
 

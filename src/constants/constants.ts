@@ -13,7 +13,7 @@ export const projects: Projects[] = [
     I started this project after completing a bootcamp and doing some tutorial projects. It was my way of diving into independent projects, specifically to get better at <span>CSS</span>, using only <span>TailwindCSS</span>, <span>JavaScript</span>, and <span>React</span> to create this landing page.<br/>
     The website features a <span>fully responsive</span> design, utilizes the <span>useState</span> and <span>useContext</span> hooks to manage language synchronization within the dropdown menu. Additionally, it includes a <span>carousel</span> that displays 1 to 3 cards based on the viewport width.`,
     links: [
-      { name: "Link", link: "https://dialect-leomat.netlify.app/" },
+      { name: "Site", link: "https://dialect-leomat.netlify.app/" },
       { name: "GitHub", link: "https://github.com/Leo-Cata/Dialect-Project" },
     ],
   },
@@ -32,7 +32,7 @@ export const projects: Projects[] = [
     This is a <span>fully responsive</span> website, containing a <span>carousel</span>, an <span>accordion</span> style faq section and a mobile menu animated.
     `,
     links: [
-      { name: "Link", link: "https://networkagency-leomat.netlify.app/" },
+      { name: "Site", link: "https://networkagency-leomat.netlify.app/" },
       { name: "GitHub", link: "https://github.com/Leo-Cata/Network-Agency" },
     ],
   },
@@ -53,7 +53,7 @@ export const projects: Projects[] = [
     
     `,
     links: [
-      { name: "Link", link: "https://phonespecshub.netlify.app/" },
+      { name: "Site", link: "https://phonespecshub.netlify.app/" },
       { name: "GitHub", link: "https://github.com/Leo-Cata/phone-specs-hub" },
     ],
   },
@@ -79,7 +79,7 @@ export const projects: Projects[] = [
     <span>React-Router-Dom</span> is used to handle navigation and state passing between pages. <span>Swiper.js</span> is used to display images in slider format.
     `,
     links: [
-      { name: "Link", link: "https://backlogged.netlify.app/" },
+      { name: "Site", link: "https://backlogged.netlify.app/" },
       { name: "GitHub", link: "https://github.com/Leo-Cata/rawg-app" },
     ],
   },
