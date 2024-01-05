@@ -1,6 +1,7 @@
+import { FaLinkedin } from "react-icons/fa";
 const Hero = () => {
   return (
-    <div className="my-20 flex  justify-center">
+    <div className=" flex  justify-center">
       <section className="mx-1 flex w-full  flex-col items-center rounded-xl bg-white p-4 shadow-xl lg:max-w-[70%]">
         {/* img */}
         <img
@@ -36,9 +37,10 @@ const Hero = () => {
           href="https://www.linkedin.com/in/leonel-cata/"
           target="_blank"
           rel="noopener noreferrer"
-          className="m-10 rounded-full bg-[#43257e] px-6 py-4  text-center text-2xl  text-white transition-all hover:bg-[#43257e]/70"
+          className="m-10 flex items-center space-x-2 rounded-full bg-[#43257e] px-6 py-4 text-white transition-all hover:bg-[#43257e]/70"
         >
-          Get In Contact
+          <FaLinkedin size="24px" className="mt-1" />
+          <p className=" h-fit text-center text-2xl">Get In Contact</p>
         </a>
       </section>
     </div>
