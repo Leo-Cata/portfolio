@@ -9,7 +9,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             className={`flex flex-col items-center rounded-md bg-white shadow-2xl lg:mx-4
-            lg:flex-row ${index % 2 ? "lg:flex-row-reverse" : ""}`}
+            xl:flex-row ${index % 2 ? "xl:flex-row-reverse" : ""}`}
             key={project.title}
           >
             <ProjectsCards

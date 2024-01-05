@@ -5,6 +5,7 @@ import ProjectsLinks from "./ProjectsLinks";
 import ProjectsTitle from "./ProjectsTitle";
 
 const ProjectsCards = ({ description, img, title, chips, links }: Projects) => {
+  console.log("🚀 ~ ProjectsCards ~ description:", description);
   const sanitizedDescription = DOMPurify.sanitize(description);
   return (
     <>
@@ -13,17 +14,17 @@ const ProjectsCards = ({ description, img, title, chips, links }: Projects) => {
         href={links[0].link}
         target="_blank"
         rel="noopener noreferrer"
-        className="h-fit w-full self-start lg:max-w-[50%]"
+        className="h-fit w-full self-start px-0 xl:max-w-[50%] xl:self-center xl:px-1 2xl:px-0"
       >
         <img
           src={img}
           alt={title + " landing page image"}
-          className="rounded-lg"
+          className="rounded-md"
         />
       </a>
 
       {/* text content */}
-      <div className="mx-4 flex h-full w-full flex-grow flex-col py-2 lg:max-w-[50%]">
+      <div className=" flex h-full w-full flex-grow flex-col px-4 py-2 xl:max-w-[50%]">
         {/* title */}
         <ProjectsTitle title={title} link={links[0].link} />
 
