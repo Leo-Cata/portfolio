@@ -1,12 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import MainPage from "./containers/MainPage";
 
 function App() {
   return (
-    <div className="mb-10">
-      <Navbar />
-
+    <div className="my-10">
       <Routes>
         <Route path="/" element={<MainPage />} />
       </Routes>

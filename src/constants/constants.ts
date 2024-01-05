@@ -14,8 +14,8 @@ export const projects: Projects[] = [
       { name: "<Swiper.js/>", bg: "bg-swiper" },
     ],
     title: "Backlogged",
-    description: `This <span>React</span> and <span>TypeScript</span> web app <span>integrates</span> a videogames <span>API</span> via <span>Axios</span>, utilizing <span>MUI</span> component library and <span>TailwindCSS</span> for minor styling. <br/><br/>
-    <span>Firebase</span> is used for it's <span>Authentication</span> and <span>database</span> services. This web app allows users to sign in using their Google account and add games from the API to their backlog. These games are then stored in Firebase to be displayed later on their private profile. The app incorporates a system to write, read, and delete data from the database, enabling users to manage their backlogged games. Additionally, from the profile page, users can delete their backlog or their accounts all together from the database.<br/><br/>
+    description: `This <span>React</span> and <span>TypeScript</span> web app <span>integrates</span> a videogames <span>API</span> via <span>Axios</span>, utilizing <span>MUI</span> component library and <span>TailwindCSS</span> for minor styling. <br/>
+    <span>Firebase</span> is used for it's <span>Authentication</span> and <span>database</span> services. This web app allows users to sign in using their Google account and add games from the API to their backlog. These games are then stored in Firebase to be displayed later on their private profile. The app incorporates a system to write, read, and delete data from the database, enabling users to manage their backlogged games. Additionally, from the profile page, users can delete their backlog or their accounts all together from the database.<br/>
     Backlogged games have a 'save' icon that remains consistent across the app. <br/>
     <span>React-Router-Dom</span> is used to handle navigation and state passing between pages. <span>Swiper.js</span> is used to display images in slider format.`,
     links: [
