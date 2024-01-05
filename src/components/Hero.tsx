@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div className="my-20 flex  justify-center">
-      <section className="flex w-full max-w-[95%] flex-col items-center rounded-xl bg-white p-4 shadow-xl lg:max-w-[70%]">
+      <section className="mx-1 flex w-full  flex-col items-center rounded-xl bg-white p-4 shadow-xl lg:max-w-[70%]">
         {/* img */}
         <img
           src="/pfp.png"
@@ -10,15 +10,15 @@ const Hero = () => {
         />
 
         {/* description */}
-        <div className="space-y-1 pt-4">
-          <h5 className="font-roboto md:text-lg">
+        <div className="space-y-1 pt-4 font-roboto">
+          <h5 className="md:text-xl">
             Hey there, I'm Matías, From a city in the south of Argentina!
           </h5>
 
           {/* description */}
           <p className="whitespace-pre-line md:text-xl">
             I'm an aspiring{" "}
-            <span className="gradient-text animate-gradient background-clip text-lg font-semibold text-transparent md:text-2xl">
+            <span className="gradient-text background-clip animate-gradient text-lg font-semibold text-transparent md:text-2xl">
               React Front-End Developer
             </span>
             , passionate about technology for as long as I can remember.&#10; At

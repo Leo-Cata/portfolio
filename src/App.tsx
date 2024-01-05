@@ -1,16 +1,16 @@
-import Hero from "./components/Hero";
+import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Projects from "./components/projects/Projects";
-// import Technologies from "./components/Technologies";
+import MainPage from "./containers/MainPage";
 
 function App() {
   return (
-    <>
+    <div className="mb-10">
       <Navbar />
-      <Hero />
-      {/* <Technologies /> */}
-      <Projects />
-    </>
+
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+      </Routes>
+    </div>
   );
 }
 
