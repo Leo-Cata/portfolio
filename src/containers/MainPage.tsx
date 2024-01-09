@@ -4,7 +4,7 @@ import Projects from "../components/projects/Projects";
 
 const MainPage = () => {
   const lang = useParams();
-  console.log("🚀 ~ MainPage ~ lang:", lang);
+
   const nav = useNavigate();
 
   const handleNav = () => {
@@ -18,8 +18,8 @@ const MainPage = () => {
   };
   return (
     <>
-      <button onClick={handleNav}>Change Language</button>
       <Hero />
+      <button onClick={handleNav}>Change Language</button>
       <Projects />
     </>
   );
