@@ -29,7 +29,7 @@
       { "name": "<Axios/>", "bg": "bg-axios" }
     ],
     "title": "Phone Specs Hub",
-    "description": "Moving into something more complex, in this fully responsive web app, the user can find out the latest released phones, search the phone brands or a general search in the database. When navigation to a phone page, the phone specifications are displayed in accordions, giving the user technical information about the phone. this web app integrates a cellphones database <span>API</span>. <br/> For this project, I decided to learn <span>MUI</span> and it's vast library of pre-made components, focusing more on the logic and <span>TypeScript</span>, rather than the design. <br/> The data is fetched using <span>Axios</span>, <span>React-Router-Dom</span> is being used for SPA navigation, and <span>TailwindCSS</span> for minor styling using .",
+    "description": "In this <span>fully responsive</span> web app, the user can find out the latest released phones, search the phone brands or a general search in the database. When navigation to a phone page, the phone specifications are displayed in accordions, giving the user technical information about the phone. this web app integrates a cellphones database <span>API</span>. <br/> For this project, I decided to learn <span>MUI</span> and it's vast library of pre-made components, focusing more on the logic and <span>TypeScript</span>, rather than the design. <br/> The data is fetched using <span>Axios</span>, <span>React-Router-Dom</span> is being used for SPA navigation, and <span>TailwindCSS</span> for minor styling using .",
     "links": [
       { "name": "Site", "link": "https://phonespecshub.netlify.app/" },
       {
