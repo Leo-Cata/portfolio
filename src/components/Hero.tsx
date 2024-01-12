@@ -23,7 +23,7 @@ const Hero = () => {
               React Front-End Developer
             </span>
             , passionate about technology for as long as I can remember.&#10; At
-            the end of September of 2023, I completed a React Front-End
+            the end of September of 2022, I completed a React Front-End
             Bootcamp, and since then I've been learning and doing projects on my
             own.&#10; My goal is to become developer, building interactive
             websites that bring value to the businesses through my work while
