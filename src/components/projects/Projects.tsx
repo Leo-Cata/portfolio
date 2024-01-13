@@ -10,6 +10,7 @@ const Projects = () => {
     null,
   );
 
+  
   useEffect(() => {
     const fetchProjects = async () => {
       try {
