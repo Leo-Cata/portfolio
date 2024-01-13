@@ -1,5 +1,4 @@
 import ProjectsCards from "./ProjectsCards";
-// import { projects } from "../../constants/constants";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { ProjectsDataType } from "../../types/types";
