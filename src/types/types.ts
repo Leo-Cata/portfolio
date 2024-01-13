@@ -21,3 +21,8 @@ interface Chips {
   name: string;
   bg: string;
 }
+
+//introduction text
+export interface IntroductionText {
+  introduction: string;
+}

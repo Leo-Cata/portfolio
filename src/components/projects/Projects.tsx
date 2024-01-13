@@ -6,7 +6,7 @@ import { ProjectsDataType } from "../../types/types";
 
 const Projects = () => {
   const lang = useParams().lang;
-  console.log("🚀 ~ Projects ~ lang:", lang);
+
   const [projectsData, setProjectsData] = useState<ProjectsDataType[] | null>(
     null,
   );

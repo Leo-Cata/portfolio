@@ -47,7 +47,7 @@
       { "name": "<Framer Motion/>", "bg": "bg-framer" }
     ],
     "title": "Network Agency Landing Page",
-    "description": "Landing Page ficticia, basada en un diseño web de <span>Figma</span>. En este proyecto utilize y aprendi los fundamentos de <span>TypeScript</span>, utilizando el mismo en diferentes arrays lo cuales despues son mapeados.</br> <span>Framer Motion</span> fue usado para diferentes animaciones, <span>TailwindCSS</span> para todos los estilos en este sitio <span>Fully Responsive</span> ",
+    "description": "Landing Page ficticia, basada en un diseño web de <span>Figma</span>. En este proyecto utilicé y aprendí los fundamentos de <span>TypeScript</span>, utilizando el mismo en diferentes arrays lo cuales después son mapeados.</br> <span>Framer Motion</span> fue usado para diferentes animaciones, <span>TailwindCSS</span> para todos los estilos en este sitio <span>Fully Responsive</span> utilizando <span>React</span> y diferentes <span>Hooks</span>, implementando <span>carruseles</span> y <span>acordeones</span>.",
     "links": [
       { "name": "Site", "link": "https://networkagency-leomat.netlify.app/" },
       { "name": "GitHub", "link": "https://github.com/Leo-Cata/Network-Agency" }
@@ -61,7 +61,7 @@
       { "name": "<TailwindCSS/>", "bg": "bg-tailwind" }
     ],
     "title": "Dialect Landing Page",
-    "description": "Landing page of a fictional language learning site, designed based on a <span>Figma</span> web design. <br/> I started this project after completing a bootcamp and doing some tutorial projects. It was my way of diving into independent projects, specifically to get better at <span>CSS</span>, using only <span>TailwindCSS</span>, <span>JavaScript</span>, and <span>React</span> to create this landing page. <br/> The website features a <span>fully responsive</span> design, utilizes the <span>useState</span> and <span>useContext</span> hooks to manage language synchronization within the dropdown menu. Additionally, it includes a <span>carousel</span> that displays 1 to 3 cards based on the viewport width.",
+    "description": "Landing page de un sitio de aprendizaje de idiomas ficticio, basado en un diseño web en <span>Figma</span>.<br/> Este proyecto fue empezado luego de terminar un 'bootcamp' en CoderHouse.<br/> Fue mi manera de meterme a realizar proyectos independientemente sin seguir ningún tutorial.<br/> Específicamente, con este primer proyecto solo, me enfoque en <span>CSS</span>, utilizando solamente <span>TailwindCSS</span>, <span>JavaScript</span> y <span>React</span> para crear este landing page <span>Fully Responsive</span>.<br/> Este sitio utiliza <span>useState</span> y <span>useContext</span> hooks para mantener sincronizado los dropdown menus. Adicionalmente, este sitio incluye un <span>carrusel</span> el cual muestra dinámicamente de 1 a 3 cards basándose en el ancho de la ventana para mantener una vista acorde al dispositivo utilizado.",
     "links": [
       { "name": "Site", "link": "https://dialect-leomat.netlify.app/" },
       {

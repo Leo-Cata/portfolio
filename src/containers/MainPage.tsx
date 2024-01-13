@@ -10,10 +10,8 @@ const MainPage = () => {
   const handleNav = () => {
     if (lang.lang === "en") {
       nav("/es");
-      console.log("es");
     } else {
       nav("/en");
-      console.log("en");
     }
   };
   return (
