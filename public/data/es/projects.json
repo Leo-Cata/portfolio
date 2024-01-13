@@ -1,0 +1,73 @@
+[
+  {
+    "img": "./backlogged.png",
+    "chips": [
+      { "name": "<React/>", "bg": "bg-react" },
+      { "name": "<TypeScript/>", "bg": "bg-typescript" },
+      { "name": "<Mui/>", "bg": "bg-mui" },
+      { "name": "<TailwindCSS/>", "bg": "bg-tailwind" },
+      { "name": "<React-Router-Dom/>", "bg": "bg-router" },
+      { "name": "<Axios/>", "bg": "bg-axios" },
+      { "name": "<Firebase/>", "bg": "bg-firebase" },
+      { "name": "<Swiper.js/>", "bg": "bg-swiper" }
+    ],
+    "title": "Backlogged",
+    "description": "Esta aplicación hecha con <span>React</span> y <span>TypeScript</span>  integra una <span>API</span>  de videojuegos mediante <span>Axios</span>, utiliza la librería de componentes <span>MUI</span>  y <span>TailwindCSS</span>  para estilizaciones menores.<br/> Por otro lado, se utiliza <span>Firebase</span>  por sus servicios de <span>Autenticación</span>  y <span>base de datos</span>. Esta aplicación web permite a los usuarios iniciar sesión con su cuenta de Google y agregas juegos a su lista de pendientes o 'backlog'. Estos juegos se almacenan en Firebase para luego, mostrarlos en su perfil privado. La aplicación incorpora un sistema para escribir, leer y borrar información de la base de datos de Firebase, permitiendo a los usuarios gestionar sus juegos pendientes. Adicionalmente, desde la página de su perfil, los usuarios pueden borrar su 'backlog' y/o sus cuentas completamente de la base de datos.<br/>Juegos guardados en dicha lista tienen un icono de 'guardado' el cual permanece consistentemente a lo largo de la aplicación.<br/> Para la navegación y pase de estado entre páginas, se utilizó <span>React-Router-Dom</span>. <span>Swiper.js</span> es utilizado para mostrar imágenes en formato carrusel.",
+    "links": [
+      { "name": "Sitio", "link": "https://backlogged.netlify.app/" },
+      { "name": "GitHub", "link": "https://github.com/Leo-Cata/rawg-app" }
+    ]
+  },
+  {
+    "img": "./psh.png",
+    "chips": [
+      { "name": "<React/>", "bg": "bg-react" },
+      { "name": "<TypeScript/>", "bg": "bg-typescript" },
+      { "name": "<Mui/>", "bg": "bg-mui" },
+      { "name": "<TailwindCSS/>", "bg": "bg-tailwind" },
+      { "name": "<React-Router-Dom/>", "bg": "bg-router" },
+      { "name": "<Axios/>", "bg": "bg-axios" }
+    ],
+    "title": "Phone Specs Hub",
+    "description": "En esta aplicación web <span>Fully Responsive</span>, los usuarios pueden encontrar los últimos celulares lanzados, buscar por marcas o realizar una búsqueda general en la base de datos, la cual está integrada a partir de una <span>API</span>.<br/>Navegando hacia una página de algún celular, las especificaciones técnicas sobre el celular son mostradas en acordeones.<br/> Para este proyecto, decidí aprender <span>MUI</span> y su vasta biblioteca de componentes, enfocándome más en la lógica y <span>TypeScript</span>, en vez del diseño.<br/>La información es obtenida utilizando <span>Axios</span>, <span>React-Router-Dom</span> para la navegación <span>SPA</span> o 'Single Page Application', y <span>TailwindCSS</span> es utilizada para estilizaciones menores.",
+    "links": [
+      { "name": "Sitio", "link": "https://phonespecshub.netlify.app/" },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/Leo-Cata/phone-specs-hub"
+      }
+    ]
+  },
+  {
+    "img": "network.png",
+    "chips": [
+      { "name": "<React/>", "bg": "bg-react" },
+      { "name": "<TypeScript/>", "bg": "bg-typescript" },
+      { "name": "<TailwindCSS/>", "bg": "bg-tailwind" },
+      { "name": "<Framer Motion/>", "bg": "bg-framer" }
+    ],
+    "title": "Network Agency Landing Page",
+    "description": "Landing Page ficticia, basada en un diseño web de <span>Figma</span>. En este proyecto utilicé y aprendí los fundamentos de <span>TypeScript</span>, utilizando el mismo en diferentes arrays lo cuales después son mapeados.</br> <span>Framer Motion</span> fue usado para diferentes animaciones, <span>TailwindCSS</span> para todos los estilos en este sitio <span>Fully Responsive</span> utilizando <span>React</span> y diferentes <span>Hooks</span>, implementando <span>carruseles</span> y <span>acordeones</span>.",
+    "links": [
+      { "name": "Sitio", "link": "https://networkagency-leomat.netlify.app/" },
+      { "name": "GitHub", "link": "https://github.com/Leo-Cata/Network-Agency" }
+    ]
+  },
+  {
+    "img": "./dialect.png",
+    "chips": [
+      { "name": "<React/>", "bg": "bg-react" },
+      { "name": "<JavaScript/>", "bg": "bg-javascript" },
+      { "name": "<TailwindCSS/>", "bg": "bg-tailwind" }
+    ],
+    "title": "Dialect Landing Page",
+    "description": "Landing page de un sitio de aprendizaje de idiomas ficticio, basado en un diseño web en <span>Figma</span>.<br/> Este proyecto fue empezado luego de terminar un 'bootcamp' en CoderHouse.<br/> Fue mi manera de meterme a realizar proyectos independientemente sin seguir ningún tutorial.<br/> Específicamente, con este primer proyecto solo, me enfoque en <span>CSS</span>, utilizando solamente <span>TailwindCSS</span>, <span>JavaScript</span> y <span>React</span> para crear este landing page <span>Fully Responsive</span>.<br/> Este sitio utiliza <span>useState</span> y <span>useContext</span> hooks para mantener sincronizado los dropdown menus. Adicionalmente, este sitio incluye un <span>carrusel</span> el cual muestra dinámicamente de 1 a 3 cards basándose en el ancho de la ventana para mantener una vista acorde al dispositivo utilizado.",
+    "links": [
+      { "name": "Sitio", "link": "https://dialect-leomat.netlify.app/" },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/Leo-Cata/Dialect-Project"
+      }
+    ]
+  }
+]

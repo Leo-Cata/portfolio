@@ -4,7 +4,7 @@ export interface ProjectChips {
 }
 
 //types for the array of projects
-export interface Projects {
+export interface ProjectsDataType {
   img: string;
   chips: Chips[];
   title: string;
@@ -20,4 +20,9 @@ export interface ProjectsLinksType {
 interface Chips {
   name: string;
   bg: string;
+}
+
+//introduction text
+export interface IntroductionText {
+  introduction: string;
 }

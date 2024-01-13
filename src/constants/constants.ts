@@ -1,6 +1,6 @@
-import { Projects } from "../types/types";
+import { ProjectsDataType } from "../types/types";
 
-export const projects: Projects[] = [
+export const projectss: ProjectsDataType[] = [
   {
     img: "./backlogged.png",
     chips: [

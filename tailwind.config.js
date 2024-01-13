@@ -18,6 +18,7 @@ export default {
         firebase: "#F38715",
         swiper: "#0080FF",
         framer: "#00A0FF",
+        purple: "#43257e",
       },
     },
     keyframes: {
