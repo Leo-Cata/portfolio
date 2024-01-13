@@ -4,7 +4,7 @@ import ProjectPage from "./components/ProjectPage";
 
 function App() {
   return (
-    <div className="my-10">
+    <div className="mb-10">
       <Routes>
         {/* when there is no param, automatically nav to /en */}
         <Route path="/" element={<Navigate to="/en" replace />} />

@@ -73,10 +73,12 @@ const Hero = () => {
           href="https://www.linkedin.com/in/leonel-cata/"
           target="_blank"
           rel="noopener noreferrer"
-          className="m-10 flex items-center space-x-2 rounded-full bg-[#43257e] px-6 py-4 text-white transition-all hover:bg-[#43257e]/70"
+          className="bg-purple hover:bg-purple/70 m-10 flex items-center space-x-2 rounded-full px-6 py-4 text-white transition-all"
         >
           <FaLinkedin size="24px" className="mt-1" />
-          <p className=" h-fit text-center text-2xl">Get In Contact</p>
+          <p className=" h-fit text-center text-2xl">
+            {lang === "en" ? "Get In Contact" : "Contáctame!"}
+          </p>
         </a>
       </section>
     </div>
