@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import DOMPurify from "dompurify";
 const Hero = () => {
+  //navigation to default url
+  const nav = useNavigate();
+
   // gets language
   const lang = useParams().lang;
 
@@ -41,14 +44,15 @@ const Hero = () => {
         );
       } catch (error) {
         console.log(error);
+        nav("/");
       }
     };
     fetchIntroduction();
-  }, [lang]);
+  }, [lang, nav]);
 
   return (
     <div className=" flex  justify-center">
-      <section className="mx-1 flex w-full  flex-col items-center rounded-xl bg-white p-4 shadow-xl lg:max-w-[70%]">
+      <section className="dark:bg-darkCardsBg mx-1 flex  w-full flex-col items-center rounded-xl bg-white p-4 shadow-xl transition-all duration-500 dark:text-white lg:max-w-[70%]">
         {/* img */}
 
         <img
@@ -73,7 +77,7 @@ const Hero = () => {
           href="https://www.linkedin.com/in/leonel-cata/"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-purple hover:bg-purple/70 m-10 flex items-center space-x-2 rounded-full px-6 py-4 text-white transition-all"
+          className="dark:bg-darkButton dark:hover:bg-darkButton/70 m-10 flex items-center space-x-2 rounded-full bg-purple px-6 py-4 text-white transition-all hover:bg-purple/70"
         >
           <FaLinkedin size="24px" className="mt-1" />
           <p className=" h-fit text-center text-2xl">

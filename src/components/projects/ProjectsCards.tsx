@@ -30,7 +30,7 @@ const ProjectsCards = ({
       </a>
 
       {/* text content */}
-      <div className=" flex h-full w-full flex-grow flex-col px-4 py-2 xl:max-w-[50%]">
+      <div className="  flex h-full w-full flex-grow flex-col px-4 py-2  xl:max-w-[50%]">
         {/* title */}
         <ProjectsTitle title={title} link={links[0].link} />
         {/* chips */}

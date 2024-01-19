@@ -1,5 +1,6 @@
 [
   {
+    "headerTitle": "Proyectos",
     "img": "./backlogged.png",
     "chips": [
       { "name": "<React/>", "bg": "bg-react" },
