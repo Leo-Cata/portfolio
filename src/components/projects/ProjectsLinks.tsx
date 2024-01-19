@@ -9,7 +9,7 @@ const ProjectsLinks = ({ links }: { links: ProjectsLinksType[] }) => {
           href={link.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex w-fit items-center rounded-full  bg-[#43257e] px-4 py-0.5 text-center text-lg text-white transition-all hover:bg-[#43257e]/70"
+          className="dark:bg-darkButton dark:hover:bg-darkButton/80 flex w-fit  items-center rounded-full bg-[#43257e] px-4 py-0.5 text-center text-lg text-white transition-all hover:bg-[#43257e]/70"
           key={link.link}
         >
           {link.name === "GitHub" ? (
