@@ -22,6 +22,8 @@ const Projects = () => {
     fetchProjects();
   }, [lang]);
 
+  console.log(projectsData);
+
   return (
     <section id="projects">
       {projectsData && (
@@ -32,7 +34,7 @@ const Projects = () => {
           <div className="mx-1 flex flex-wrap justify-center space-y-40 lg:mx-0">
             {projectsData.map((project, index) => (
               <div
-                className={`dark:bg-darkCardsBg flex flex-col items-center rounded-md bg-white shadow-2xl transition-colors duration-500 dark:text-white lg:mx-4
+                className={`flex flex-col items-center rounded-md bg-white shadow-2xl transition-colors duration-500 dark:bg-darkCardsBg dark:text-white lg:mx-4
           xl:flex-row ${index % 2 ? "xl:flex-row-reverse" : ""}`}
                 key={project.title}
               >

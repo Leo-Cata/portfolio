@@ -1,21 +1,14 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const ProjectPage = () => {
-  const { lang, page } = useParams();
+  const { page, lang } = useParams();
 
-  const nav = useNavigate();
-
-  const handleNav = () => {
-    if (lang === "en") {
-      nav(`/es/${page}`);
-    } else {
-      nav(`/en/${page}`);
-    }
-  };
   return (
-    <div>
-      {page}
-      <button onClick={handleNav}>Change Language</button>
+    <div className="flex h-screen justify-center dark:text-white">
+      <h1 className="text-4xl font-semibold">
+        {lang === "en" ? "Project: " : "Proyecto: "}
+        {page}
+      </h1>
     </div>
   );
 };
