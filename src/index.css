@@ -18,6 +18,7 @@ html {
 body {
   height: 100dvh;
 }
+
 .gradient-text {
   background: linear-gradient(to right, #ca419e, #7035ff, #ca419e, #7035ff);
   background-size: 300% 300%;

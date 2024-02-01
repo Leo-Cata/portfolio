@@ -5,7 +5,6 @@ const LanguageButton = () => {
   const nav = useNavigate();
 
   const location = window.location.pathname;
-  console.log("🚀 ~ LanguageButton ~ location:", location);
 
   const handleNav = () => {
     // regex to find /en or /es at the beginning of the string
@@ -13,8 +12,6 @@ const LanguageButton = () => {
     const replacedUrl = location.replace(regex, (match) => {
       return `/${match === "/en/" ? "es/" : "en/"}`;
     });
-
-    console.log("🚀 ~ replacedUrl ~ replacedUrl:", replacedUrl);
 
     nav(replacedUrl);
     window.location.reload();

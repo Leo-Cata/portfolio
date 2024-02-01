@@ -37,7 +37,7 @@ export default {
       },
     },
     animation: {
-      gradient: "gradientKeyframe 6s linear infinite",
+      gradient: "gradientKeyframe 3s linear infinite",
       fadeIn: "fadeInKeyframe 0.2s ease-in-out",
     },
   },

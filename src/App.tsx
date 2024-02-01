@@ -1,8 +1,8 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import MainPage from "./containers/MainPage";
-import ProjectPage from "./components/ProjectPage";
 import DarkLightMode from "./components/DarkLightMode";
 import LanguageButton from "./components/LanguageButton";
+import ProjectsPageContainer from "./containers/ProjectsPageContainer";
 function App() {
   return (
     <div className="bg-lightBg pb-10 transition-all duration-500 dark:bg-[#1A1B27]">
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Navigate to="/en" replace />} />
         <Route path="/:lang" element={<MainPage />} />
 
-        <Route path="/:lang/:page" element={<ProjectPage />} />
+        <Route path="/:lang/:page" element={<ProjectsPageContainer />} />
       </Routes>
     </div>
   );

@@ -1,7 +1,7 @@
 [
   {
     "headerTitle": "Proyectos",
-    "img": "./backlogged.png",
+    "img": "../backlogged.png",
     "chips": [
       { "name": "<React/>", "bg": "bg-react" },
       { "name": "<TypeScript/>", "bg": "bg-typescript" },
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "img": "./psh.png",
+    "img": "../psh.png",
     "chips": [
       { "name": "<React/>", "bg": "bg-react" },
       { "name": "<TypeScript/>", "bg": "bg-typescript" },
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "img": "network.png",
+    "img": "../network.png",
     "chips": [
       { "name": "<React/>", "bg": "bg-react" },
       { "name": "<TypeScript/>", "bg": "bg-typescript" },
@@ -55,7 +55,7 @@
     ]
   },
   {
-    "img": "./dialect.png",
+    "img": "../dialect.png",
     "chips": [
       { "name": "<React/>", "bg": "bg-react" },
       { "name": "<JavaScript/>", "bg": "bg-javascript" },

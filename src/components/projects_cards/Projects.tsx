@@ -22,8 +22,6 @@ const Projects = () => {
     fetchProjects();
   }, [lang]);
 
-  console.log(projectsData);
-
   return (
     <section id="projects">
       {projectsData && (

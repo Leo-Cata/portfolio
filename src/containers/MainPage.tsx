@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import Projects from "../components/projects/Projects";
+import Projects from "../components/projects_cards/Projects";
 
 const MainPage = () => {
   return (
