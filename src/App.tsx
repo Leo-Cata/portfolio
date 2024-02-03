@@ -12,8 +12,8 @@ function App() {
       </div>
       <Routes>
         {/* when there is no param, automatically nav to /en */}
-        <Route path="/" element={<Navigate to="/en" replace />} />
-        <Route path="/:lang" element={<MainPage />} />
+        <Route path="/" element={<Navigate to="/en/" replace />} />
+        <Route path="/:lang/" element={<MainPage />} />
 
         <Route path="/:lang/:page" element={<ProjectsPageContainer />} />
       </Routes>

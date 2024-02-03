@@ -1,11 +1,11 @@
 import Hero from "../components/Hero";
-import Projects from "../components/projects_cards/Projects";
+import ProjectsCardsContainer from "./ProjectsCardsContainer";
 
 const MainPage = () => {
   return (
     <div className="flex flex-col">
       <Hero />
-      <Projects />
+      <ProjectsCardsContainer />
     </div>
   );
 };

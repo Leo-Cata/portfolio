@@ -17,7 +17,7 @@ const ProjectsTitle = ({ title, link }: { title: string; link: string }) => {
         {title}
         <RxExternalLink size="16px" className="mx-2" />
       </a>
-      <Link to={`/${lang}/${url}`}>Read More</Link>
+      {title === "Backlogged" && <Link to={`/${lang}/${url}`}>Read More</Link>}
     </h3>
   );
 };

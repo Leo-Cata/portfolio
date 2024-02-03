@@ -1,9 +1,9 @@
-import ProjectsCards from "./ProjectsCards";
+import ProjectsCards from "../components/projects_cards/ProjectsCards";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { ProjectsDataType } from "../../types/types";
+import { ProjectsDataType } from "../types/types";
 
-const Projects = () => {
+const ProjectsCardsContainer = () => {
   const lang = useParams().lang;
 
   const [projectsData, setProjectsData] = useState<ProjectsDataType[] | null>(
@@ -53,4 +53,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsCardsContainer;

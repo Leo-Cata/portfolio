@@ -1,20 +1,19 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const LanguageButton = () => {
-  const lang = useParams().lang;
   const nav = useNavigate();
-
   const location = window.location.pathname;
 
+  const lang = location.split("/")[1];
+
   const handleNav = () => {
-    // regex to find /en or /es at the beginning of the string
-    const regex = /\/(es|en)(\/|$)/;
+    // Simulate some delay for language change
+    const regex = /^(\/en\/?|\/es\/?)/;
     const replacedUrl = location.replace(regex, (match) => {
       return `/${match === "/en/" ? "es/" : "en/"}`;
     });
 
     nav(replacedUrl);
-    window.location.reload();
   };
   return (
     <button

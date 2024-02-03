@@ -15,7 +15,7 @@ const ProjectPage = ({
   const nav = useNavigate();
 
   const handleMainPageNav = () => {
-    nav(`/${lang}`);
+    nav(`/${lang}/`);
   };
 
   return (
