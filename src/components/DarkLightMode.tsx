@@ -42,6 +42,10 @@ const DarkLightMode = () => {
     }
   };
 
+  if (theme === undefined) {
+    return null;
+  }
+
   return (
     <div>
       <button onClick={handleTheme} className="animate-ping m-4">

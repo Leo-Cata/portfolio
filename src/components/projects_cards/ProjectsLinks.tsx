@@ -3,13 +3,13 @@ import { BiWorld, BiLogoGithub } from "react-icons/bi";
 
 const ProjectsLinks = ({ links }: { links: ProjectsLinksType[] }) => {
   return (
-    <div className="mt-2 flex justify-center space-x-5">
+    <div className="mt-2 flex justify-center space-x-5 lg:mt-0">
       {links.map((link) => (
         <a
           href={link.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="dark:bg-darkButton dark:hover:bg-darkButton/80 flex w-fit  items-center rounded-full bg-[#43257e] px-4 py-0.5 text-center text-lg text-white transition-all hover:bg-[#43257e]/70"
+          className="flex w-fit items-center rounded-full  bg-[#43257e] px-4 py-0.5 text-center text-lg text-white transition-all hover:bg-[#43257e]/70 dark:bg-darkButton dark:hover:bg-darkButton/80"
           key={link.link}
         >
           {link.name === "GitHub" ? (

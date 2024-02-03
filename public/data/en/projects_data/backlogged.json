@@ -1,0 +1,15 @@
+{
+  "title": "Backlogged",
+  "objective": "The main motivation for this project was to build something bigger than my previous projects, with some sort of log-in system and some way to write and delete to a database.<br/> RAWG API was ideal for my project, providing a vast range of data for me to work with on the Frontend of this app. <br/> Firebase provided the rest I needed in order to implement my objectives for this web app, a database and an Authentication system.",
+
+  "features": "In this web app, users can log in using Google Authentication, granting them access to write and delete to a Firebase database in the form of saving or deleting games to and from their backlog with a button that remains consistently showing games as saved across the whole app, said information is visible in their private profiles. Users can also delete their whole backlog or their account as a whole from the database with a simple button.<br/> Basic information about each game is displayed in the form of cards in a masonry layout, adapting the amount of columns depending on the width of the device. Various filters provided from the API, like sorting options, genres, year of release, etc., are implemented as well as, in each of the games pages, when available, images are displayed in a slider with full screen feature.<br/>404 errors for bad URLs are handled by the app as well as when the API can't find any result for the string searched. As with all of my projects, the design is fully responsive and tested up to 375px width.",
+
+  "challenges": "After setting up the basic logic for interacting with Firebase, the first challenge I had was with the masonry layout, but with some help from ChatGPT, I ended up going with the approach of creating 1 to 3 arrays, depending on the amount of columns that are displayed, and saving every second or third element in different arrays, then these arrays would be mapped and displayed in grids, each column having the first, third, sixth, etc. Element below each other.<br/> Another difficulty I had was with managing a global state for when the user is logged in throughout the whole app, which is managed using just Context API. <br/> Maintaining the saved button synchronized throughout the app presented its own challenges as well, but I was able to get that featured working in the end.",
+
+  "stack": "Apart from the sliders, which were made using Swiper.js, Material-UI (MUI) was used for most of the components, editing the styles with TailwindCSS and plain CSS when it was necessary. Routing is handled using React-Router-DOM, Axios for the API calls, and modularity for each endpoint. Firebase handles both Google Authentication and database with their Firestore service. <br/> React was used as the frontend framework, along with TypeScript for type safety",
+  "img": "backlogged.png",
+  "links": [
+    { "name": "Site", "link": "https://backlogged.netlify.app/" },
+    { "name": "GitHub", "link": "https://github.com/Leo-Cata/rawg-app" }
+  ]
+}

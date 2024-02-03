@@ -1,23 +1,25 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const LanguageButton = () => {
-  const lang = useParams().lang;
-
   const nav = useNavigate();
+  const location = window.location.pathname;
+
+  // from location split strings whenever / appears, the lang will always be the second element in the array
+  const lang = location.split("/")[1];
 
   const handleNav = () => {
-    if (lang === "en") {
-      nav("/es");
-      window.location.reload();
-    } else {
-      nav("/en");
-      window.location.reload();
-    }
+    // Simulate some delay for language change
+    const regex = /^(\/en\/?|\/es\/?)/;
+    const replacedUrl = location.replace(regex, (match) => {
+      return `/${match === "/en/" ? "es/" : "en/"}`;
+    });
+
+    nav(replacedUrl);
   };
   return (
     <button
       onClick={handleNav}
-      className="dark:bg-darkButton dark:hover:bg-darkButton/70 m-2 self-end rounded-full bg-purple px-3 py-2 font-normal text-white transition-colors"
+      className="m-2 max-w-fit self-end rounded-full bg-purple px-3 py-2 font-normal text-white transition-all dark:bg-darkButton dark:hover:bg-darkButton/70"
     >
       {lang === "en" ? "Change to Spanish" : "Cambiar A Inglés"}
     </button>

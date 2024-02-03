@@ -1,9 +1,9 @@
-import ProjectsCards from "./ProjectsCards";
+import ProjectsCards from "../components/projects_cards/ProjectsCards";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { ProjectsDataType } from "../../types/types";
+import { ProjectsDataType } from "../types/types";
 
-const Projects = () => {
+const ProjectsCardsContainer = () => {
   const lang = useParams().lang;
 
   const [projectsData, setProjectsData] = useState<ProjectsDataType[] | null>(
@@ -32,7 +32,7 @@ const Projects = () => {
           <div className="mx-1 flex flex-wrap justify-center space-y-40 lg:mx-0">
             {projectsData.map((project, index) => (
               <div
-                className={`dark:bg-darkCardsBg flex flex-col items-center rounded-md bg-white shadow-2xl transition-colors duration-500 dark:text-white lg:mx-4
+                className={`flex flex-col items-center rounded-md bg-white shadow-2xl transition-colors duration-500 dark:bg-darkCardsBg dark:text-white lg:mx-4
           xl:flex-row ${index % 2 ? "xl:flex-row-reverse" : ""}`}
                 key={project.title}
               >
@@ -53,4 +53,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsCardsContainer;

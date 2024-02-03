@@ -27,3 +27,14 @@ interface Chips {
 export interface IntroductionText {
   introduction: string;
 }
+
+// projects info type
+export interface ProjectsPageInfo {
+  title?: string;
+  objective: string;
+  features: string;
+  challenges: string;
+  stack: string;
+  img: string;
+  links: ProjectsLinksType[];
+}
