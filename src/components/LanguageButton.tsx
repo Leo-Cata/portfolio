@@ -4,6 +4,7 @@ const LanguageButton = () => {
   const nav = useNavigate();
   const location = window.location.pathname;
 
+  // from location split strings whenever / appears, the lang will always be the second element in the array
   const lang = location.split("/")[1];
 
   const handleNav = () => {
@@ -18,7 +19,7 @@ const LanguageButton = () => {
   return (
     <button
       onClick={handleNav}
-      className="m-2 self-end rounded-full bg-purple px-3 py-2 font-normal text-white transition-colors dark:bg-darkButton dark:hover:bg-darkButton/70"
+      className="m-2 max-w-fit self-end rounded-full bg-purple px-3 py-2 font-normal text-white transition-all dark:bg-darkButton dark:hover:bg-darkButton/70"
     >
       {lang === "en" ? "Change to Spanish" : "Cambiar A Inglés"}
     </button>
