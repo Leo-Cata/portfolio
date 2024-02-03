@@ -35,4 +35,6 @@ export interface ProjectsPageInfo {
   features: string;
   challenges: string;
   stack: string;
+  img: string;
+  links: ProjectsLinksType[];
 }

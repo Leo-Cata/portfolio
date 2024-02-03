@@ -51,7 +51,7 @@ const Hero = () => {
   }, [lang, nav]);
 
   return (
-    <div className=" flex  justify-center">
+    <div className=" flex justify-center">
       <section className="mx-1 flex w-full  flex-col items-center rounded-xl bg-white p-4 shadow-xl transition-all duration-500 dark:bg-darkCardsBg dark:text-white lg:max-w-[70%]">
         {/* img */}
 

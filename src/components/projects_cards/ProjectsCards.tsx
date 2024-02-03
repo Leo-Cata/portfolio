@@ -3,6 +3,8 @@ import ProjectsChips from "./ProjectsChips";
 import DOMPurify from "dompurify";
 import ProjectsLinks from "./ProjectsLinks";
 import ProjectsTitle from "./ProjectsTitle";
+import { Link, useParams } from "react-router-dom";
+import { URLFormatter } from "../../utils/URLFormatter";
 
 const ProjectsCards = ({
   description,
@@ -12,6 +14,8 @@ const ProjectsCards = ({
   links,
 }: ProjectsDataType) => {
   const sanitizedDescription = DOMPurify.sanitize(description);
+  const lang = useParams().lang;
+  const url = URLFormatter(title);
 
   return (
     <>
@@ -37,17 +41,23 @@ const ProjectsCards = ({
         <ProjectsChips chips={chips} />
         {/* description and links*/}
         <div className="flex h-full flex-grow flex-col justify-between">
-          <div>
-            {/* sanitized description */}
-            <p
-              dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
-              className="font-montserrat [&_span]:font-semibold"
-            />
-          </div>
+          {/* sanitized description */}
+          <p
+            dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
+            className="font-montserrat [&_span]:font-semibold"
+          />
 
-          {/* github and host link */}
-          <ProjectsLinks links={links} />
+          {/* button to red more */}
+          {title === "Backlogged" && (
+            <button className="self-start text-blue-500 underline">
+              <Link to={`/${lang}/${url}`}>
+                {lang === "en" ? "Read More..." : "Mas Info..."}
+              </Link>
+            </button>
+          )}
         </div>
+        {/* github and host link */}
+        <ProjectsLinks links={links} />
       </div>
     </>
   );
