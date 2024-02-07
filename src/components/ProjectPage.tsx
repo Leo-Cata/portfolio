@@ -12,8 +12,7 @@ const ProjectPage = ({
   img,
   links,
 }: ProjectsPageInfo) => {
-  console.log("🚀 ~ links:", links);
-  const titleClasses = "text-xl font-semibold underline ";
+  const titleClasses = "text-xl font-semibold pt-4";
 
   const lang = useParams().lang;
   const nav = useNavigate();
@@ -48,7 +47,7 @@ const ProjectPage = ({
         </div>
 
         {/* texts */}
-        <div className="p-4">
+        <div className="px-4 pb-4">
           {/* objectives */}
           <h2 className={titleClasses}>
             {lang === "en" ? "Objectives" : "Objetivos"}
@@ -69,7 +68,9 @@ const ProjectPage = ({
           <p dangerouslySetInnerHTML={{ __html: stack }} />
 
           {/* links */}
-          <ProjectsLinks links={links} />
+          <div className="pt-4">
+            <ProjectsLinks links={links} />
+          </div>
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@ const ProjectsPageContainer = () => {
     <div className="mx-1 min-h-screen">
       {pageData && (
         <ProjectPage
-          title={page}
+          title={pageData.title}
           objective={pageData.objective}
           features={pageData.features}
           challenges={pageData.challenges}

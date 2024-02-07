@@ -1,0 +1,17 @@
+{
+  "title": "Network Agency Landing Page",
+  "objective": "Con este proyecto, mi objetivo principal era aprender lo básico de TypeScript y seguir mejorando mis habilidades de CSS. El diseño de esta landing page fue perfecto, ya que para mucho de los elementos fue necesario utilizar la propiedad de posición absoluta",
+
+  "features": "Esta landing page cuenta con un carrusel, acordeones y un menú de hamburguesa para móvil animado con Framer Motion. Muchos de los elementos son posicionados utilizando posición absoluta para replicar el diseño que seguí para esta landing page, los componentes son modulares y se mantiene un código limpio a lo largo del proyecto.",
+
+  "challenges": "La parte más difícil de este proyecto fue entender el posicionamiento absoluto para poder replicar el diseño web sin que se rompa la página a la hora de ver la página en celulares.",
+
+  "stack": "React como framework del frontend, a pesar de no ser realmente necesario, TypeScript se usó para aprender lo básico de este superset de JavaScript. Framer Motion para las animaciones y TailwindCSS para los estilos.",
+
+  "img": "network.png",
+
+  "links": [
+    { "name": "Sitio", "link": "https://networkagency-leomat.netlify.app/" },
+    { "name": "GitHub", "link": "https://github.com/Leo-Cata/Network-Agency" }
+  ]
+}

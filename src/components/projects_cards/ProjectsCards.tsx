@@ -48,13 +48,12 @@ const ProjectsCards = ({
           />
 
           {/* button to red more */}
-          {title === "Backlogged" && (
-            <button className="self-start text-blue-500 underline">
-              <Link to={`/${lang}/${url}`}>
-                {lang === "en" ? "Read More..." : "Mas Info..."}
-              </Link>
-            </button>
-          )}
+
+          <button className="self-start text-blue-500 underline">
+            <Link to={`/${lang}/${url}`}>
+              {lang === "en" ? "Read More..." : "Mas Info..."}
+            </Link>
+          </button>
         </div>
         {/* github and host link */}
         <ProjectsLinks links={links} />
