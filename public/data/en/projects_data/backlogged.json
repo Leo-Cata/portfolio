@@ -6,8 +6,19 @@
 
   "challenges": "After setting up the basic logic for interacting with Firebase, the first challenge I had was with the masonry layout, but with some help from ChatGPT, I ended up going with the approach of creating 1 to 3 arrays, depending on the amount of columns that are displayed, and saving every second or third element in different arrays, then these arrays would be mapped and displayed in grids, each column having the first, third, sixth, etc. Element below each other.<br/> Another difficulty I had was with managing a global state for when the user is logged in throughout the whole app, which is managed using just Context API. <br/> Maintaining the saved button synchronized throughout the app presented its own challenges as well, but I was able to get that featured working in the end.",
 
-  "stack": "Apart from the sliders, which were made using Swiper.js, Material-UI (MUI) was used for most of the components, editing the styles with TailwindCSS and plain CSS when it was necessary. Routing is handled using React-Router-DOM, Axios for the API calls, and modularity for each endpoint. Firebase handles both Google Authentication and database with their Firestore service. <br/> React was used as the frontend framework, along with TypeScript for type safety",
+  "stack_icons": [
+    { "name": "React", "icon": "../stack_icons/react.png" },
+    { "name": "TypeScript", "icon": "../stack_icons/typescript.png" },
+    { "name": "Material-UI", "icon": "../stack_icons/mui.png" },
+    { "name": "Tailwind CSS", "icon": "../stack_icons/tailwind.png" },
+    { "name": "React Router", "icon": "../stack_icons/react-router.png" },
+    { "name": "Axios", "icon": "../stack_icons/axios.png" },
+    { "name": "Firebase", "icon": "../stack_icons/firebase.png" },
+    { "name": "Swiper.js", "icon": "../stack_icons/swiper.png" }
+  ],
+
   "img": "backlogged.png",
+
   "links": [
     { "name": "Site", "link": "https://backlogged.netlify.app/" },
     { "name": "GitHub", "link": "https://github.com/Leo-Cata/rawg-app" }

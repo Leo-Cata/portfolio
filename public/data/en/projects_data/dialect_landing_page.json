@@ -1,0 +1,16 @@
+{
+  "title": "Dialect Landing Page",
+  "objective": "Before this project, I was following tutorials, doing some challenges on codewars.com and frontendmentor.io, but I didn't want to get stuck in tutorial hell. To start with something  simple, I decided to follow a web design and make it into a website.",
+  "features": "This is a simple website using mostly flexbox and includes a carousel as well as a dropdown menu made without any libraries; both dropdown menus are synched for the chosen option using Context API. Although a design for the mobile view wasn't included, I adapted it myself to make it fully responsive",
+  "challenges": "I had small difficulties with flexbox, although I quickly understood how to make it work",
+  "stack_icons": [
+    { "name": "React", "icon": "../stack_icons/react.png" },
+    { "name": "JavaScript", "icon": "../stack_icons/javascript.png" },
+    { "name": "Tailwind CSS", "icon": "../stack_icons/tailwind.png" }
+  ],
+  "img": "dialect.png",
+  "links": [
+    { "name": "Site", "link": "https://dialect-leomat.netlify.app/" },
+    { "name": "GitHub", "link": "https://github.com/Leo-Cata/Dialect-Project" }
+  ]
+}

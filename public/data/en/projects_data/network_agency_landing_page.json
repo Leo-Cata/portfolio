@@ -1,0 +1,20 @@
+{
+  "title": "Network Agency Landing Page",
+  "objective": "With this project, I wanted to learn TypeScript and keep improving my CSS skills. The design of this web page was perfect because a lot of the positioning was done with the absolute property",
+
+  "features": "This landing page features a carousel, accordions and a mobile menu animated using Framer Motion. Lots of elements are positioned using absolute positioning in order to mirror the design I was following; everything is as modular as possible, maintaining clean code throughout the project.",
+
+  "challenges": "The hardest part of this project was understanding absolute positioning in order to achieve the design I was following and everything not breaking for the mobile view.",
+
+  "img": "network.png",
+  "stack_icons": [
+    { "name": "React", "icon": "../stack_icons/react.png" },
+    { "name": "TypeScript", "icon": "../stack_icons/typescript.png" },
+    { "name": "Tailwind CSS", "icon": "../stack_icons/tailwind.png" },
+    { "name": "Framer Motion", "icon": "../stack_icons/framer.png" }
+  ],
+  "links": [
+    { "name": "Site", "link": "https://networkagency-leomat.netlify.app/" },
+    { "name": "GitHub", "link": "https://github.com/Leo-Cataphone-specs-hub" }
+  ]
+}

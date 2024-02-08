@@ -7,7 +7,7 @@ const ProjectsTitle = ({ title, link }: { title: string; link: string }) => {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center hover:underline [&_svg]:hover:text-blue-600"
+        className="flex items-center hover:text-blue-400  hover:underline"
       >
         {title}
         <RxExternalLink size="16px" className="mx-2" />
