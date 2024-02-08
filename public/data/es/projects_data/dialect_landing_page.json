@@ -3,8 +3,13 @@
   "objective": "Anteriormente a este proyecto, estaba siguiendo tutoriales y haciendo ejercicios en codewars.com y frontendmentor.io, pero no quería quedarme en el 'tutorial hell' así que decidí empezar con algo simple, seguir un diseño y conviértelo a código.",
   "features": "Este sitio es simple, mayormente usa flexbox e incluye un carrusel, menú de hamburguesa y un dropdown menu hecho sin ninguna librería, ambos dropdown menus en esta landing page están sincronizados utilizando Context API. A pesar de que el diseño era solo para Desktop, lo adapte para que sea fully responsive.",
   "challenges": "Tuve pequeñas dificultades con flexbox, pero rápidamente fui entendiendo y trabajando con el mismo sin ningún problema",
-  "stack": "React, JavaScript y TailwindCSS",
+  "stack_icons": [
+    { "name": "React", "icon": "../stack_icons/react.png" },
+    { "name": "JavaScript", "icon": "../stack_icons/javascript.png" },
+    { "name": "Tailwind CSS", "icon": "../stack_icons/tailwind.png" }
+  ],
   "img": "dialect.png",
+
   "links": [
     { "name": "Sitio", "link": "https://dialect-leomat.netlify.app/" },
     { "name": "GitHub", "link": "https://github.com/Leo-Cata/Dialect-Project" }

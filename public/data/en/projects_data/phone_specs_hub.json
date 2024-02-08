@@ -5,9 +5,14 @@
   "features": "Users are greeted by the latest phones released (which are updated thanks to the API) or have a page with all the available brands and a search bar to filter in the client for brands that match the string given. On the page for each phone, technical information is displayed in accordions. Under the hood, modularity was my one of my focuses, so a lot of components are reutilized, like the cards or the links for the top phones by 'interest' and 'fans'.<br/> As with all of my projects, the design is fully responsive and tested up to 375px width.",
 
   "challenges": "I found the API by sheer luck while browsing on GitHub; it provides a lot of information, but it isn't very well documented, and the search function doesn't work. Thankfully, in one of the issues opened in the repo, someone provided their own backend API for the search function. Other than that, it was a bit hard to understand the structure of the API and how the information was given when making calls and setting the types.<br/> When it came to MUI, although I had read through some of the documentation beforehand, it was a bit hard to understand how such a huge library made by Google works and their philosophy, their 'flexbox' grid system and their 'native' styling system, which for the most part I used TailwindCSS and making it work by injecting MUI styles first.",
-
-  "stack": "MUI was the main library for all components and styles, with some modifications using TailwindCSS, Axios for fetching the data, React-Router-DOM handles SPA navigation, TypeScript for type safety, and React as the frontend framework",
-
+  "stack_icons": [
+    { "name": "React", "icon": "../stack_icons/react.png" },
+    { "name": "TypeScript", "icon": "../stack_icons/typescript.png" },
+    { "name": "Material-UI", "icon": "../stack_icons/mui.png" },
+    { "name": "Tailwind CSS", "icon": "../stack_icons/tailwind.png" },
+    { "name": "React-Router-Dom", "icon": "../stack_icons/react-router.png" },
+    { "name": "Axios", "icon": "../stack_icons/axios.png" }
+  ],
   "img": "psh.png",
 
   "links": [

@@ -2,13 +2,14 @@ import { useNavigate, useParams } from "react-router-dom";
 import { ProjectsPageInfo } from "../types/types";
 import { FaArrowLeft } from "react-icons/fa";
 import ProjectsLinks from "./projects_cards/ProjectsLinks";
+import { RxExternalLink } from "react-icons/rx";
 
 const ProjectPage = ({
   title,
   objective,
   features,
   challenges,
-  stack,
+  stack_icons,
   img,
   links,
 }: ProjectsPageInfo) => {
@@ -20,6 +21,7 @@ const ProjectPage = ({
   const handleMainPageNav = () => {
     nav(`/${lang}/`);
   };
+
   return (
     <div className="flex flex-col items-center">
       {/* button to go back to the main page */}
@@ -36,40 +38,62 @@ const ProjectPage = ({
       <div className="space-y-4 rounded-xl bg-white shadow-xl dark:bg-darkCardsBg dark:text-white lg:w-5/6 ">
         {/* title */}
         <div>
-          <a href={links[0].link} target="_blank" rel="noopener noreferrer">
-            <h1 className="pb-4 pt-2 text-center text-5xl font-semibold 2xl:text-7xl">
+          <h1 className="pb-4 pt-2 text-center text-5xl font-semibold 2xl:text-7xl">
+            <a
+              href={links[0].link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center hover:text-blue-400 hover:underline "
+            >
               {title}
-            </h1>
-          </a>
+              <RxExternalLink size="2rem" className="l-2" />
+            </a>
+          </h1>
 
           {/* image */}
           <img src={`../${img}`} alt="" />
         </div>
 
-        {/* texts */}
-        <div className="px-4 pb-4">
-          {/* objectives */}
-          <h2 className={titleClasses}>
-            {lang === "en" ? "Objectives" : "Objetivos"}
-          </h2>
-          <p dangerouslySetInnerHTML={{ __html: objective }} />
+        {/* wrapper for the padding */}
+        <div className="px-4">
+          {/* stack icons */}
+          {stack_icons.length && (
+            <div className={`grid grid-cols-4 text-center lg:grid-cols-8`}>
+              {stack_icons.map((stack) => (
+                <div key={stack.icon} className="flex flex-col pb-2">
+                  <img
+                    src={stack.icon}
+                    alt=""
+                    className="mx-auto h-10 w-10 object-contain lg:h-14 lg:w-14"
+                  />
+                  <p className="text-base">{stack.name}</p>
+                </div>
+              ))}
+            </div>
+          )}
 
-          {/* features */}
-          <h2 className={titleClasses}>Features</h2>
-          <p dangerouslySetInnerHTML={{ __html: features }} />
+          {/* texts */}
+          <div className=" pb-4">
+            {/* objectives */}
+            <h2 className={titleClasses}>
+              {lang === "en" ? "Objectives" : "Objetivos"}
+            </h2>
+            <p dangerouslySetInnerHTML={{ __html: objective }} />
 
-          {/* challenges */}
-          <h2 className={titleClasses}>
-            {lang === "en" ? "Challenges" : "Desafios"}
-          </h2>
-          <p dangerouslySetInnerHTML={{ __html: challenges }} />
-          {/* stack */}
-          <h2 className={titleClasses}>Stack</h2>
-          <p dangerouslySetInnerHTML={{ __html: stack }} />
+            {/* features */}
+            <h2 className={titleClasses}>Features</h2>
+            <p dangerouslySetInnerHTML={{ __html: features }} />
 
-          {/* links */}
-          <div className="pt-4">
-            <ProjectsLinks links={links} />
+            {/* challenges */}
+            <h2 className={titleClasses}>
+              {lang === "en" ? "Challenges" : "Desafios"}
+            </h2>
+            <p dangerouslySetInnerHTML={{ __html: challenges }} />
+
+            {/* links */}
+            <div className="pt-4">
+              <ProjectsLinks links={links} />
+            </div>
           </div>
         </div>
       </div>

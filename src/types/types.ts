@@ -34,7 +34,12 @@ export interface ProjectsPageInfo {
   objective: string;
   features: string;
   challenges: string;
-  stack: string;
+  stack_icons: stack_icons[];
   img: string;
   links: ProjectsLinksType[];
+}
+
+interface stack_icons {
+  name: string;
+  icon: string;
 }

@@ -6,10 +6,13 @@
 
   "challenges": "La parte más difícil de este proyecto fue entender el posicionamiento absoluto para poder replicar el diseño web sin que se rompa la página a la hora de ver la página en celulares.",
 
-  "stack": "React como framework del frontend, a pesar de no ser realmente necesario, TypeScript se usó para aprender lo básico de este superset de JavaScript. Framer Motion para las animaciones y TailwindCSS para los estilos.",
-
   "img": "network.png",
-
+  "stack_icons": [
+    { "name": "React", "icon": "../stack_icons/react.png" },
+    { "name": "TypeScript", "icon": "../stack_icons/typescript.png" },
+    { "name": "Tailwind CSS", "icon": "../stack_icons/tailwind.png" },
+    { "name": "Framer Motion", "icon": "../stack_icons/framer.png" }
+  ],
   "links": [
     { "name": "Sitio", "link": "https://networkagency-leomat.netlify.app/" },
     { "name": "GitHub", "link": "https://github.com/Leo-Cata/Network-Agency" }

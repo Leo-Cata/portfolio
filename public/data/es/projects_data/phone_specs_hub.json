@@ -6,8 +6,14 @@
 
   "challenges": "Encontré esta API de pura suerte en GitHub, provee mucha información, pero no está bien documentada y la función de buscar en la base de datos no funciona. Afortunadamente, en uno de los issues abiertos en el repositorio, otro usuario de GitHub creo su propia API de backend para realizar las búsquedas. Otra dificultad que tuve fue en entender la estructura de la información que esta API te da a la hora de hacer las llamadas a los endpoints y configurar los 'types'.<br/> A la hora de usar MUI, a pesar de que leí la documentación anteriormente, se me dificulto un poco lo que fue entender la manera de que esta librería hecha por Google funciona y la 'filosofía' de sus funcionalidades, su sistema de 'flexbox grid' y su sistema de estilización 'nativo', el cual en vez, utilicé TailwindCSS para la mayoría de los estilos, infectando MUI primero para que TailwindCSS tenga prioridad",
 
-  "stack": "MUI es la librería principal para todos los componentes y estilos, con algunas modificaciones utilizando TailwindCSS, Axios se encarga de hacer los fetchs, React-Router-DOM para la navegación SPA, TypeScript mantiene el proyecto 'type safe' y React como el framework del frontend",
-
+  "stack_icons": [
+    { "name": "React", "icon": "../stack_icons/react.png" },
+    { "name": "TypeScript", "icon": "../stack_icons/typescript.png" },
+    { "name": "Material-UI", "icon": "../stack_icons/mui.png" },
+    { "name": "Tailwind CSS", "icon": "../stack_icons/tailwind.png" },
+    { "name": "React-Router-Dom", "icon": "../stack_icons/react-router.png" },
+    { "name": "Axios", "icon": "../stack_icons/axios.png" }
+  ],
   "img": "psh.png",
 
   "links": [

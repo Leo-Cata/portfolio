@@ -30,7 +30,7 @@ const ProjectsPageContainer = () => {
           objective={pageData.objective}
           features={pageData.features}
           challenges={pageData.challenges}
-          stack={pageData.stack}
+          stack_icons={pageData.stack_icons}
           img={pageData.img}
           links={pageData.links}
         />

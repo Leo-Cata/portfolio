@@ -6,10 +6,13 @@
 
   "challenges": "The hardest part of this project was understanding absolute positioning in order to achieve the design I was following and everything not breaking for the mobile view.",
 
-  "stack": "React as the frontend framework, although it wasn't really needed, TypeScript was used just as a way of learning the basics, framer motion for the animations, and TailwindCSS for the styling",
-
   "img": "network.png",
-
+  "stack_icons": [
+    { "name": "React", "icon": "../stack_icons/react.png" },
+    { "name": "TypeScript", "icon": "../stack_icons/typescript.png" },
+    { "name": "Tailwind CSS", "icon": "../stack_icons/tailwind.png" },
+    { "name": "Framer Motion", "icon": "../stack_icons/framer.png" }
+  ],
   "links": [
     { "name": "Site", "link": "https://networkagency-leomat.netlify.app/" },
     { "name": "GitHub", "link": "https://github.com/Leo-Cataphone-specs-hub" }
