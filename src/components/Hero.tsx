@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { FaLinkedin } from "react-icons/fa";
 import { useNavigate, useParams } from "react-router-dom";
 import DOMPurify from "dompurify";
+import Links from "./Links";
 const Hero = () => {
   //navigation to default url
   const nav = useNavigate();
@@ -73,17 +73,8 @@ const Hero = () => {
             />
           )}
         </div>
-        <a
-          href="https://www.linkedin.com/in/leonel-cata/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="m-10 flex items-center space-x-2 rounded-full bg-purple px-6 py-4 text-white transition-all hover:bg-purple/70 dark:bg-darkButton dark:hover:bg-darkButton/70"
-        >
-          <FaLinkedin size="24px" className="mt-1" />
-          <p className=" h-fit text-center text-2xl">
-            {lang === "en" ? "Get In Contact" : "Contáctame!"}
-          </p>
-        </a>
+
+        <Links />
       </section>
     </div>
   );

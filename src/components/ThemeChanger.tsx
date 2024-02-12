@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
 
-const DarkLightMode = () => {
+const ThemeChanger = () => {
   // gets saved theme
   const savedTheme = localStorage.getItem("theme");
 
@@ -65,4 +65,4 @@ const DarkLightMode = () => {
   );
 };
 
-export default DarkLightMode;
+export default ThemeChanger;
