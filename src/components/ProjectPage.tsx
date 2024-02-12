@@ -23,7 +23,7 @@ const ProjectPage = ({
   };
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center ">
       {/* button to go back to the main page */}
 
       <button
@@ -35,10 +35,10 @@ const ProjectPage = ({
       </button>
 
       {/* text card */}
-      <div className="space-y-4 rounded-xl bg-white shadow-xl dark:bg-darkCardsBg dark:text-white lg:w-5/6 ">
+      <div className="space-y-4 rounded-xl border-2 border-purple bg-white shadow-xl dark:border-darkButton dark:bg-darkCardsBg dark:text-white lg:w-5/6">
         {/* title */}
         <div>
-          <h1 className="pb-4 pt-2 text-center text-5xl font-semibold 2xl:text-7xl">
+          <h1 className="pb-4 pt-2 text-center text-3xl   font-semibold lg:text-5xl 2xl:text-7xl">
             <a
               href={links[0].link}
               target="_blank"

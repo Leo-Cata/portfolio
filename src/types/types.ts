@@ -1,3 +1,5 @@
+import { ReactElement } from "react";
+
 export interface ProjectChips {
   bg: string;
   name: string;
@@ -34,12 +36,19 @@ export interface ProjectsPageInfo {
   objective: string;
   features: string;
   challenges: string;
-  stack_icons: stack_icons[];
+  stack_icons: StackIcons[];
   img: string;
   links: ProjectsLinksType[];
 }
 
-interface stack_icons {
+// for the png icons in /projectPage
+interface StackIcons {
   name: string;
   icon: string;
+}
+
+//for the icons in the landing page
+export interface TechIcons {
+  icon: ReactElement;
+  name: string;
 }

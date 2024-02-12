@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-
+import { FiAtSign } from "react-icons/fi";
 const links = [
   {
     href: "https://www.linkedin.com/in/leonel-cata/",
@@ -13,9 +12,9 @@ const links = [
     text: "GitHub",
   },
   {
-    href: "mailto:leonelcatam@gmail.com",
-    icon: <IoIosMail size="24px" />,
-    text: "E-Mail",
+    href: "mailto:contact@leocata.com.ar",
+    icon: <FiAtSign size="24px" />,
+    text: "Email",
   },
 ];
 
@@ -31,7 +30,7 @@ const Links = () => {
             className="flex items-center space-x-1 rounded-full bg-purple px-4 py-2 text-white transition-all hover:bg-purple/70 dark:bg-darkButton dark:hover:bg-darkButton/70"
           >
             {link.icon}
-            <p className=" h-fit text-center font-roboto text-lg sm:text-xl md:text-2xl ">
+            <p className=" h-fit text-center font-roboto sm:text-xl md:text-2xl ">
               {link.text}
             </p>
           </a>

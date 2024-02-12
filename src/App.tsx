@@ -3,9 +3,10 @@ import MainPage from "./containers/MainPage";
 import ThemeChanger from "./components/ThemeChanger";
 import LanguageButton from "./components/LanguageButton";
 import ProjectsPageContainer from "./containers/ProjectsPageContainer";
+
 function App() {
   return (
-    <div className="bg-lightBg pb-10 transition-all duration-500 dark:bg-[#1A1B27]">
+    <div className="bg-lightBg px-1 pb-10 transition-all duration-500 dark:bg-[#1A1B27] lg:px-4">
       <div className="flex justify-between">
         <ThemeChanger />
         <LanguageButton />
