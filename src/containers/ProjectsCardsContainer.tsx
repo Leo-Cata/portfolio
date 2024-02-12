@@ -26,14 +26,16 @@ const ProjectsCardsContainer = () => {
     <section id="projects">
       {projectsData && (
         <>
-          <h2 className="my-12 text-center text-6xl font-semibold dark:text-white">
+          <h2 className="my-12 text-center text-3xl font-semibold dark:text-white lg:text-5xl">
             {projectsData[0].headerTitle}
           </h2>
-          <div className="mx-1 flex flex-wrap justify-center space-y-40 lg:mx-0">
+          <div className="flex flex-wrap justify-center space-y-40 ">
             {projectsData.map((project, index) => (
               <div
-                className={`flex flex-col items-center rounded-md bg-white shadow-2xl transition-colors duration-500 dark:bg-darkCardsBg dark:text-white lg:mx-4
-          xl:flex-row ${index % 2 ? "xl:flex-row-reverse" : ""}`}
+                className={`flex flex-col items-center rounded-md bg-white shadow-2xl transition-colors duration-500 dark:bg-darkCardsBg dark:text-white
+          xl:flex-row ${
+            index % 2 ? "xl:flex-row-reverse" : ""
+          } border-2 border-purple dark:border-darkButton`}
                 key={project.title}
               >
                 <ProjectsCards

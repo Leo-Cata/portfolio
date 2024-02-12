@@ -52,7 +52,7 @@ const Hero = () => {
 
   return (
     <div className=" flex justify-center">
-      <section className="mx-1 flex w-full  flex-col items-center rounded-xl bg-white p-4 shadow-xl transition-all duration-500 dark:bg-darkCardsBg dark:text-white lg:max-w-[70%]">
+      <section className=" flex w-full  flex-col items-center rounded-xl border-2 border-purple bg-white p-4 shadow-xl transition-all duration-500 dark:border-darkButton dark:bg-darkCardsBg dark:text-white lg:max-w-[70%]">
         {/* img */}
 
         <img
