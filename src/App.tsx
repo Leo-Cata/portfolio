@@ -1,13 +1,13 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import MainPage from "./containers/MainPage";
-import DarkLightMode from "./components/DarkLightMode";
+import ThemeChanger from "./components/ThemeChanger";
 import LanguageButton from "./components/LanguageButton";
 import ProjectsPageContainer from "./containers/ProjectsPageContainer";
 function App() {
   return (
     <div className="bg-lightBg pb-10 transition-all duration-500 dark:bg-[#1A1B27]">
       <div className="flex justify-between">
-        <DarkLightMode />
+        <ThemeChanger />
         <LanguageButton />
       </div>
       <Routes>
