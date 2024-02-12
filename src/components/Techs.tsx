@@ -89,7 +89,7 @@ const Techs = () => {
 
   return (
     <div className="mt-12 ">
-      <h4 className="pb-12 text-center text-3xl dark:text-white lg:text-5xl">
+      <h4 className="pb-12 text-center text-3xl font-semibold dark:text-white lg:text-5xl">
         {lang === "en" ? "Technologies" : "Tecnologías"}
       </h4>
       <div className=" grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
